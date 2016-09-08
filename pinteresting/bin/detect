@@ -1,3 +1,5 @@
+#!/bin/sh
+
 if [ -f "$1/Gemfile" ]; then
   echo "Ruby"
   exit 0
