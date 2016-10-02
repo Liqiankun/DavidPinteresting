@@ -11,7 +11,12 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 //= require bootstrap
 //= require turbolinks
+//= require masonry/jquery.masonry
 //= require_tree .
+
+
+$.turbo.use('turbolinks:load', 'turbolinks:request-start')
